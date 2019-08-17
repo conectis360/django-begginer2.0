@@ -1,0 +1,9 @@
+<!--templates/home-->
+
+<h1>Message Board Homepage</h1>
+
+<ul>
+    {% for posts in object_list %}
+        <li>{{ posts }}</li>
+    {% endfor %}
+</ul>
